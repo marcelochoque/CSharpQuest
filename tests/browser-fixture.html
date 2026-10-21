@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>QA local · C# Quest</title>
+  </head>
+  <body style="background: #101a2e; color: white; font: 18px system-ui; padding: 40px">
+    <h1>Entorno de verificación de C# Quest</h1>
+    <p>Exclusivo del servidor de desarrollo. Este archivo no se incluye en dist.</p>
+    <p>
+      Utiliza un origen de navegador separado de tu perfil habitual. Los botones reemplazan
+      únicamente los datos de prueba de este origen.
+    </p>
+    <button id="lab">Preparar laboratorio universitario</button
+    ><button id="certificate">Preparar certificado completo</button
+    ><button id="long-name">Probar certificado con nombre largo</button
+    ><button id="clear">Limpiar datos de prueba</button>
+    <p id="status" role="status"></p>
+    <a style="color: #8acaff" href="/">Abrir aplicación</a>
+    <script type="module" src="./browser-fixture.ts"></script>
+  </body>
+</html>
